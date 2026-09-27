@@ -28,4 +28,6 @@ Featured build: an autonomous commerce engine. 📬 [hello@beyondpoc.com](mailto
 
 ---
 
-**Tools I'm working with:** Python · AI agents & orchestration · Blender · Godot · Cloudflare · Microsoft Graph
+**AI I build with every day:** OpenAI **GPT-6 Astra** · Anthropic **Claude Code** with **Opus 5.5**
+
+**Also in the toolbox:** Python · agent orchestration · Blender · Godot · Cloudflare · Microsoft Graph
