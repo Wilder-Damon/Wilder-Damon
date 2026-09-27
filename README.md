@@ -1,5 +1,7 @@
 ## Damon Carr
 
+[![Beyond POC](https://img.shields.io/badge/Beyond_POC-beyondpoc.com-1f6feb)](https://beyondpoc.com) [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--0602--4644-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-0602-4644)
+
 ### 🚀 [Beyond POC](https://beyondpoc.com) — *Beyond the prototype. Into production.*
 
 > AI becomes useful when the whole system works.
