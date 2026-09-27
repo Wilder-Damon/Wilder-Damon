@@ -1,6 +1,6 @@
 ## Damon Carr
 
-[![Beyond POC](https://img.shields.io/badge/Beyond_POC-beyondpoc.com-1f6feb)](https://beyondpoc.com) [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--0602--4644-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-0602-4644)
+[![Beyond POC](https://img.shields.io/badge/Beyond_POC-beyondpoc.com-1f6feb)](https://beyondpoc.com) [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--0602--4644-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-0602-4644) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22996451-1682D4)](https://doi.org/10.5281/zenodo.22996451)
 
 ### 🚀 [Beyond POC](https://beyondpoc.com) — *Beyond the prototype. Into production.*
 
@@ -14,7 +14,11 @@
 - **Observability and cost accountability**, so you can see what the system did and what it cost
 - **AI-assisted engineering** — intent, critique, verification, documentation
 
-Featured build: an autonomous commerce engine. 📬 [hello@beyondpoc.com](mailto:hello@beyondpoc.com)
+Featured build: an autonomous commerce engine.
+
+📄 **Publication:** [*Autonomous Commerce Engine: Steering an Agentic eCommerce Pipeline from Market Signal to Verified Release*](https://doi.org/10.5281/zenodo.22996451) — technical report, Zenodo, 2026. DOI [10.5281/zenodo.22996451](https://doi.org/10.5281/zenodo.22996451)
+
+📬 [hello@beyondpoc.com](mailto:hello@beyondpoc.com)
 
 > 🔒 **Most of my work (~99%) lives in private repositories.** Access is available on request — email [hello@beyondpoc.com](mailto:hello@beyondpoc.com).
 
