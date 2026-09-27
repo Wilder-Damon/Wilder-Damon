@@ -14,6 +14,8 @@
 
 Featured build: an autonomous commerce engine. 📬 [hello@beyondpoc.com](mailto:hello@beyondpoc.com)
 
+> 🔒 **Most of my work (~99%) lives in private repositories.** Access is available on request — email [hello@beyondpoc.com](mailto:hello@beyondpoc.com).
+
 ---
 
 **AI I build with every day:** OpenAI **GPT-6 Astra** · Anthropic **Claude Code** with **Opus 5.5**
