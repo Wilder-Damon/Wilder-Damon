@@ -16,18 +16,6 @@ Featured build: an autonomous commerce engine. 📬 [hello@beyondpoc.com](mailto
 
 ---
 
-### 🎨 Playground
-
-**[Janie & Cooper](https://janie-cooper.cooper-game.workers.dev)** — a golden-hour film and a playable browser game starring our English bulldog, built entirely from code in a day with Claude Code:
-
-- 🎬 **Film:** Blender 5.2 driven headless from Python — the park rebuilt from OpenStreetMap data, procedural walk cycles, GPU rendering
-- 🐶 **Game:** *Cooper's Park Run* in Godot 4 — push the beach ball back to Janie; touch controls and a photo mode for phones
-- ☁️ Deployed on Cloudflare Workers · source in **[blenderplayground](https://github.com/Wilder-Damon/blenderplayground)**
-
-<p><a href="https://janie-cooper.cooper-game.workers.dev"><img src="https://janie-cooper.cooper-game.workers.dev/poster.png" alt="Janie and Cooper walking in Niguel Heights Park at golden hour, Cooper chasing his beach ball" width="640"></a></p>
-
----
-
 **AI I build with every day:** OpenAI **GPT-6 Astra** · Anthropic **Claude Code** with **Opus 5.5**
 
-**Also in the toolbox:** Python · agent orchestration · Blender · Godot · Cloudflare · Microsoft Graph
+<sub>Side experiment in AI-assisted engineering: a Blender film + Godot web game, built and deployed end to end with Claude Code in a day — [blenderplayground](https://github.com/Wilder-Damon/blenderplayground).</sub>
