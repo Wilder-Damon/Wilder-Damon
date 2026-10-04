@@ -20,12 +20,6 @@ Featured builds: [Autonomous Commerce Engine](https://beyondpoc.com/solutions/au
 
 ### Recent engineering work
 
-**COVERS — specifications and invariants for AI-assisted engineering**
-
-I’m developing a private toolkit for making intent, constraints, acceptance criteria, and verification part of the engineering workflow. The core idea is to connect a requested change to the behavior it must preserve, challenge the plan through independent critique, and retain evidence alongside the code. Small, bounded changes can use a lightweight path; riskier changes need more explicit specifications and review.
-
-The technical focus is traceability between specifications, invariants, changes, and checks; visible drift when they diverge; and release decisions tied to actual evidence. Passing a metadata check is distinct from proving behavior. Local verification, integration, and release readiness are separate claims. [Public methodology overview](https://beyondpoc.com/#how-we-build) · private toolkit, under active development.
-
 **[Smith Phone](https://beyondpoc.com/solutions/smith-phone) — conversational AI with explicit authority**
 
 A custom voice integration connecting Twilio, OpenAI voice models, and scoped MCP tools. I’m working on the boundary between live conversation, backend context, and action: a read-only lookup can inform an answer, while a task proposal must be reviewed and separately authorized before execution. A spoken request or an incoming event is not permission.
