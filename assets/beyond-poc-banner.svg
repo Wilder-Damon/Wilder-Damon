@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Beyond POC — Applied AI, with evidence.</title>
+  <desc id="desc">Damon Carr's independent engineering work in voice, agentic systems, and verification. A diagram connects intent, build, and verify.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d2b"/><stop offset="1" stop-color="#172f3b"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a8d6da" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1200" height="280" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="20" fill="url(#grid)"/>
+  <rect x="48" y="42" width="5" height="25" rx="2" fill="#6de2c3"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="68" y="62" font-size="22" font-weight="700" letter-spacing="3" fill="#6de2c3">BEYOND POC</text>
+    <text x="48" y="135" font-size="48" font-weight="700" fill="#f4f8fc">Applied AI, with evidence.</text>
+    <text x="50" y="182" font-size="23" fill="#bdcfdc">Voice · Agentic systems · Verification</text>
+    <text x="50" y="235" font-size="18" fill="#91a9ba">DAMON CARR / INDEPENDENT ENGINEERING</text>
+    <path d="M887 77V113M887 157V193" stroke="#6de2c3" stroke-width="2"/>
+    <g fill="#163b43" stroke="#6de2c3" stroke-opacity=".55">
+      <rect x="790" y="33" width="194" height="44" rx="9"/>
+      <rect x="790" y="113" width="194" height="44" rx="9"/>
+      <rect x="790" y="193" width="194" height="44" rx="9"/>
+    </g>
+    <g fill="#defaf2" font-size="19" font-weight="600" text-anchor="middle">
+      <text x="887" y="62">INTENT</text><text x="887" y="142">BUILD</text><text x="887" y="222">VERIFY</text>
+    </g>
+    <path d="M1004 214H1050V55H1004" fill="none" stroke="#648896" stroke-width="2" stroke-dasharray="5 6"/>
+    <circle cx="1050" cy="135" r="5" fill="#6de2c3"/>
+  </g>
+</svg>

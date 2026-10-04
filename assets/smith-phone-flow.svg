@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Smith Phone: conversation, context, and authority</title>
+  <desc id="desc">Conceptual architecture. An authorized call connects a Twilio phone bridge and OpenAI GPT-Live-1, with GPT-6 Luna for backend reasoning. Scoped MCP separates a read-only context lookup from an untrusted task proposal. A proposal requires trusted owner review and confirmation before separately authorized action. The full live proposal-to-action journey remains unverified.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#7997ab"/></marker></defs>
+  <rect width="1200" height="500" rx="20" fill="#101d2b"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="40" y="47" fill="#6de2c3" font-size="18" font-weight="700" letter-spacing="2">SMITH PHONE / CONCEPTUAL ARCHITECTURE</text>
+    <text x="40" y="87" fill="#f4f8fc" font-size="30" font-weight="700">Conversation is input. Action needs authority.</text>
+    <g fill="#192c3d" stroke="#41586b" stroke-width="1.5">
+      <rect x="40" y="129" width="250" height="87" rx="12"/>
+      <rect x="40" y="260" width="250" height="87" rx="12"/>
+      <rect x="353" y="245" width="217" height="117" rx="12"/>
+      <rect x="648" y="129" width="512" height="87" rx="12"/>
+      <rect x="648" y="260" width="230" height="87" rx="12"/>
+      <rect x="930" y="260" width="230" height="87" rx="12" stroke="#e7bb70"/>
+      <rect x="930" y="385" width="230" height="62" rx="12" stroke="#6de2c3"/>
+    </g>
+    <g fill="none" stroke="#7997ab" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M165 216V254"/>
+      <path d="M290 303H346"/>
+      <path d="M570 303H610V172H641"/>
+      <path d="M610 303H641"/>
+      <path d="M878 303H923"/>
+      <path d="M1045 347V378"/>
+    </g>
+    <g fill="#f4f8fc" font-size="23" font-weight="600" text-anchor="middle">
+      <text x="165" y="165">Authorized call</text>
+      <text x="165" y="296" font-size="21">OpenAI GPT-Live-1</text>
+      <text x="461" y="278">GPT-6 Luna</text><text x="461" y="327" font-size="21">Scoped MCP</text>
+      <text x="904" y="165">Read-only context</text>
+      <text x="763" y="296">Task proposal</text>
+      <text x="1045" y="296">Owner review</text>
+      <text x="1045" y="425" font-size="21">Authorized action</text>
+    </g>
+    <g fill="#bdcfdc" font-size="18" text-anchor="middle">
+      <text x="165" y="194">Twilio phone bridge</text>
+      <text x="165" y="325">Full-duplex live voice</text>
+      <text x="461" y="301">Backend reasoning</text><text x="461" y="348" font-size="16">Separate permissions</text>
+      <text x="904" y="194">Inform an answer · no execution authority</text>
+      <text x="763" y="325">Untrusted input</text>
+      <text x="1045" y="325" fill="#f2d29a">Trusted confirmation</text>
+    </g>
+    <rect x="40" y="395" width="149" height="30" rx="15" fill="#3d3425"/>
+    <text x="114" y="416" text-anchor="middle" font-size="16" font-weight="600" fill="#f2d29a">IN DEVELOPMENT</text>
+    <text x="40" y="458" font-size="19" fill="#bdcfdc">Full live proposal → review → confirmation → execution journey remains unverified.</text>
+  </g>
+</svg>

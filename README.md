@@ -2,6 +2,8 @@
 
 [![Beyond POC](https://img.shields.io/badge/Beyond_POC-beyondpoc.com-1f6feb)](https://beyondpoc.com) [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--0602--4644-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-0602-4644) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22996451-1682D4)](https://doi.org/10.5281/zenodo.22996451)
 
+![Beyond POC: Applied AI, with evidence. Voice, agentic systems, and verification.](assets/beyond-poc-banner.svg)
+
 ### 🚀 [Beyond POC](https://beyondpoc.com) — *Beyond the prototype. Into the real world.*
 
 > AI becomes useful when the whole system works.
@@ -22,9 +24,11 @@ Featured builds: [Autonomous Commerce Engine](https://beyondpoc.com/solutions/au
 
 **[Smith Phone](https://beyondpoc.com/solutions/smith-phone) — conversational AI with explicit authority**
 
-A custom voice integration connecting Twilio, OpenAI voice models, and scoped MCP tools. I’m working on the boundary between live conversation, backend context, and action: a read-only lookup can inform an answer, while a task proposal must be reviewed and separately authorized before execution. A spoken request or an incoming event is not permission.
+A custom phone integration using **OpenAI GPT-Live-1** (`gpt-live-1`) for live voice, with **GPT-6 Luna** (`gpt-6-luna`) configured for backend reasoning, a Twilio phone bridge, and scoped MCP tools. OpenAI describes GPT-Live as full-duplex voice: it can listen and speak at the same time, with deeper work delegated to a backend model. [OpenAI GPT-Live documentation](https://developers.openai.com/api/docs/guides/live). I’m working on the boundary between live conversation, backend context, and action: a read-only lookup can inform an answer, while a task proposal must be reviewed and separately authorized before execution. A spoken request or an incoming event is not permission.
 
 The engineering challenges include scoped authorization, duplicate delivery, uncertain provider outcomes, and useful diagnostics without retaining recordings or transcripts. The public case study records a successful audio exchange and automated verification, while keeping the full live proposal → review → confirmation → execution journey explicitly unverified. **In development.**
+
+![Smith Phone conceptual architecture: an authorized call connects to OpenAI GPT-Live-1, GPT-6 Luna backend reasoning, and scoped MCP; read-only context is separate from proposals requiring owner review and authorization. The full live action journey remains unverified.](assets/smith-phone-flow.svg)
 
 **Legacy VB.NET + Product AI — incremental modernization**
 
